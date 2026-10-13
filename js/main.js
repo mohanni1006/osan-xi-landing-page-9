@@ -132,7 +132,7 @@ async function sendSmsNotification(data) {
 async function submitReservation(event) {
   event.preventDefault();
 
-  const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1558797951466209310/OYwa8EuBeD13ObYxpgW1FbzKVEcrMTsVwSQkZs-ZuRhhs6mM2tzWWxzVgff7hibQ_CLV";
+  const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1559382671766065325/hIKAuqKiOCs5d1gtwVyV3EUHZsLe00LSj5iO5MgbD-AZXuF_QMliI79qOY2aU8GIn7oj";
 
   const agree = document.getElementById('formAgree').checked;
   if (!agree) {
